@@ -9,9 +9,7 @@
 
 // === Private utilities, types, macros, etc. ===
 #scope_file
-
-#load "c.jai";
-
+c :: #import "C";
 
 u_char  :: c.unsigned_char;
 u_short :: c.unsigned_short;

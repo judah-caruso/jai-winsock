@@ -1,6 +1,0 @@
-[submodule "C"]
-	path = C
-	url = https://github.com/judah-caruso/C
-[submodule "vendor/C"]
-	path = vendor/C
-	url = https://github.com/judah-caruso/C
