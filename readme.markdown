@@ -4,13 +4,12 @@ Original Winsock bindings for the Jai language. Note this is **not** Winsock 2, 
 
 # Usage
 
-This depends on my [C interop module](https://github.com/judah-caruso/C). I recommend putting
-dependencies in a `vendor` directory that's added to your build's `import_path`.
+This depends on the static version of my [C interop module](https://github.com/judah-caruso/C)
+which has been pulled in already, so there's no extra work to use these bindings.
 
-```shell
+```bash
 mkdir vendor && cd vendor/
-git clone https://github.com/judah-caruso/C
-git clone https://github.com/judah-caruso/jai-winsock Winsock
+git clone https://github.com/judah-caruso/jai-winsock
 ```
 
 See `examples/winsock_test.jai` for basic UDP & TCP servers ported from C++.
