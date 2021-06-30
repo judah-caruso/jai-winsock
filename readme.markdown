@@ -5,7 +5,7 @@ Original Winsock bindings for the Jai language. Note this is **not** Winsock 2, 
 # Usage
 
 This depends on the static version of my [C interop module](https://github.com/judah-caruso/C)
-which has been pulled in already, so there's no extra work to use these bindings.
+which has been pulled in already, so there's no extra work pulling in both modules.
 
 ```bash
 mkdir vendor && cd vendor/
